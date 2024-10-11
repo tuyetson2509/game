@@ -1,0 +1,3801 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/thanhdat/ontologies/2024/9/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/thanhdat/ontologies/2024/9/untitled-ontology-9">
+    <Prefix name="" IRI="http://www.semanticweb.org/thanhdat/ontologies/2024/9/untitled-ontology-9/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ChuyenNganh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChuyenNganhDaoTao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DaiCuong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DaiCuongNganh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DoAn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GiaoDucQuocPhong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonHoc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoiDungMonHoc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TheChat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Hoc"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HocTruoc"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SongHanh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ThayThe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Thuoc"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TienQuyet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BatBuocHoc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HocKy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SoTinChi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TenMon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnToanVaBaoMatThongTin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnhVanCN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnhVan_A2.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnhVan_A2.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CN_HeThongThongTin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CacHeThongThongMinh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CauTrucDuLieu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CauTrucMayTinhVaViXuLy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChuNghiaXaHoiKhoaHoc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChuongTrinhDich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChuyenDeCNATTT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChuyenDeChuyenNganhCongNghePhanMem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChuyenDeCongNghe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoSoHeThongThongTin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CongNgheBlockchain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CongNgheIOT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CongNgheMang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CongNghePhanMem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CongNgheTriThucNangCao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CongNgheWeb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DaiSoTuyenTinh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DienToanDamMay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DieuTraSo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoAnTN_CuNhan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoAnTN_KySu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoHoaMayTinh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GiaiTich1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GiaiTich2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GiaoTiepNguoiMay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HeHoTroRaQuyetDinh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KhaiPhaDuLieu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KhaiPhaDuLieuWeb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KhoaHocDuLieu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KhoaHocDuLieuNangCao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KiemThuPhanMem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KiemThuXamNhap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KienTrucDoanhNghiep"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KienTrucPhanMen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KinhTeChinhTriMac-Lenin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KinhTeQuanLyDoanhNghiep"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KyThuatSoUngDung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KyThuatTruyenSoLieu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LapTrinh.Net"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LapTrinhDiDong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LapTrinhHeThongNhung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LapTrinhJava"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LapTrinhMang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LapTrinhPython"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LapTrinhTrenLinux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LichSuDangCongSanVN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LuuTruVaXuLyDuLieuLon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MaHoaVaMatMa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MaNguonMo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MoHinhHoaHinhHoc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NgonNguHinhThuc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NguyenLyHeDieuHanh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NhapMonNganh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PBL1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PBL2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PBL3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PBL4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PBL5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PBL7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhanTichVaXuLyMaDoc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhapLuatDaiCuong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhuongPhapTinh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuanLyDuAnCNTT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuanTriHoc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuanTriMang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TH_KyThuatLapTrinh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TN_VatLy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheChat1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheChat2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheChat3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheChat4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThucTapChuyenNganh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThuongMaiDienTu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TinhToanHieuNangCao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ToanHocTrongKhoaHocMayTinh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ToanRoiRac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ToanUngDungCNTT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TriTueNhanTao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TriTueNhanTaoNangCao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TrietHocMacLenin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TuTuongHCM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VatLy1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ViDieuKhien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XacSuatThongKe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XuLyAnh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XuLyNgonNguTuNhien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XuLyTinHieuSo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PBL6:ATTT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PBL6:CNPM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PBL6:HTTT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeGiaiThuat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeHuongDoiTuong"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ChuyenNganh"/>
+        <Class IRI="#MonHoc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DaiCuong"/>
+        <Class IRI="#MonHoc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DaiCuongNganh"/>
+        <Class IRI="#MonHoc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoAn"/>
+        <Class IRI="#MonHoc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GiaoDucQuocPhong"/>
+        <Class IRI="#MonHoc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TheChat"/>
+        <Class IRI="#MonHoc"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#AnToanVaBaoMatThongTin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#AnToanVaBaoMatThongTin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#AnhVanCN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#AnhVanCN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#AnhVan_A2.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#AnhVan_A2.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#AnhVan_A2.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#AnhVan_A2.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganhDaoTao"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganhDaoTao"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganhDaoTao"/>
+        <NamedIndividual IRI="#CN_HeThongThongTin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#CacHeThongThongMinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#CacHeThongThongMinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#CauTrucDuLieu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#CauTrucDuLieu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#CauTrucMayTinhVaViXuLy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#CauTrucMayTinhVaViXuLy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#ChuNghiaXaHoiKhoaHoc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#ChuNghiaXaHoiKhoaHoc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#ChuongTrinhDich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#ChuongTrinhDich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#ChuyenDeCNATTT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#ChuyenDeChuyenNganhCongNghePhanMem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#ChuyenDeCongNghe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#CoSoHeThongThongTin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#CoSoHeThongThongTin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#CongNgheBlockchain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#CongNgheIOT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#CongNgheIOT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#CongNgheMang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#CongNgheMang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#CongNghePhanMem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#CongNghePhanMem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#CongNgheTriThucNangCao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#CongNgheTriThucNangCao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#CongNgheWeb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#CongNgheWeb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#DaiSoTuyenTinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#DaiSoTuyenTinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#DienToanDamMay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#DienToanDamMay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#DieuTraSo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoAn"/>
+        <NamedIndividual IRI="#DoAnTN_CuNhan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#DoAnTN_CuNhan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoAn"/>
+        <NamedIndividual IRI="#DoAnTN_KySu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#DoAnTN_KySu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#DoHoaMayTinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#DoHoaMayTinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#GiaiTich1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#GiaiTich1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#GiaiTich2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#GiaiTich2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#GiaoTiepNguoiMay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#GiaoTiepNguoiMay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#HeHoTroRaQuyetDinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#HeHoTroRaQuyetDinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieuWeb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieuWeb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#KhoaHocDuLieu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#KhoaHocDuLieu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#KhoaHocDuLieuNangCao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#KhoaHocDuLieuNangCao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#KiemThuPhanMem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#KiemThuXamNhap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#KienTrucDoanhNghiep"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#KienTrucDoanhNghiep"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#KienTrucPhanMen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#KienTrucPhanMen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#KinhTeChinhTriMac-Lenin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#KinhTeChinhTriMac-Lenin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#KinhTeQuanLyDoanhNghiep"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#KinhTeQuanLyDoanhNghiep"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#KyThuatSoUngDung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#KyThuatSoUngDung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#KyThuatTruyenSoLieu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#KyThuatTruyenSoLieu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#LapTrinh.Net"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#LapTrinh.Net"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#LapTrinhDiDong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#LapTrinhDiDong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#LapTrinhHeThongNhung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#LapTrinhHeThongNhung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#LapTrinhJava"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#LapTrinhJava"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#LapTrinhMang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#LapTrinhMang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#LapTrinhPython"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#LapTrinhPython"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#LapTrinhTrenLinux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#LapTrinhTrenLinux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#LichSuDangCongSanVN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#LichSuDangCongSanVN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#LuuTruVaXuLyDuLieuLon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#LuuTruVaXuLyDuLieuLon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#MaHoaVaMatMa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#MaNguonMo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#MoHinhHoaHinhHoc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#MoHinhHoaHinhHoc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#NgonNguHinhThuc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#NgonNguHinhThuc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#NguyenLyHeDieuHanh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#NguyenLyHeDieuHanh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#NhapMonNganh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#NhapMonNganh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoAn"/>
+        <NamedIndividual IRI="#PBL1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#PBL1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoAn"/>
+        <NamedIndividual IRI="#PBL2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#PBL2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoAn"/>
+        <NamedIndividual IRI="#PBL3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#PBL3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoAn"/>
+        <NamedIndividual IRI="#PBL4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#PBL4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoAn"/>
+        <NamedIndividual IRI="#PBL5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#PBL5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoAn"/>
+        <NamedIndividual IRI="#PBL7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#PBL7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#PhanTichVaXuLyMaDoc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#PhapLuatDaiCuong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#PhapLuatDaiCuong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#PhuongPhapTinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#PhuongPhapTinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#QuanLyDuAnCNTT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#QuanLyDuAnCNTT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#QuanTriHoc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#QuanTriHoc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#QuanTriMang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#TH_KyThuatLapTrinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#TH_KyThuatLapTrinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#TN_VatLy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#TN_VatLy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#TheChat1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TheChat"/>
+        <NamedIndividual IRI="#TheChat1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#TheChat2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TheChat"/>
+        <NamedIndividual IRI="#TheChat2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#TheChat3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TheChat"/>
+        <NamedIndividual IRI="#TheChat3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#TheChat4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TheChat"/>
+        <NamedIndividual IRI="#TheChat4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#ThucTapChuyenNganh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#ThucTapChuyenNganh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#ThuongMaiDienTu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#ThuongMaiDienTu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#TinhToanHieuNangCao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#TinhToanHieuNangCao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#ToanHocTrongKhoaHocMayTinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#ToanHocTrongKhoaHocMayTinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#ToanRoiRac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#ToanRoiRac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#ToanUngDungCNTT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#ToanUngDungCNTT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#TriTueNhanTao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#TriTueNhanTao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#TriTueNhanTaoNangCao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#TriTueNhanTaoNangCao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#TrietHocMacLenin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#TrietHocMacLenin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#TuTuongHCM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#TuTuongHCM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#VatLy1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#VatLy1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#ViDieuKhien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#ViDieuKhien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuong"/>
+        <NamedIndividual IRI="#XacSuatThongKe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#XacSuatThongKe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#XuLyAnh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#XuLyAnh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChuyenNganh"/>
+        <NamedIndividual IRI="#XuLyNgonNguTuNhien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#XuLyNgonNguTuNhien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#XuLyTinHieuSo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#XuLyTinHieuSo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoAn"/>
+        <NamedIndividual IRI="#PBL6:ATTT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoAn"/>
+        <NamedIndividual IRI="#PBL6:CNPM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoAn"/>
+        <NamedIndividual IRI="#PBL6:HTTT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeGiaiThuat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeGiaiThuat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaiCuongNganh"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeHuongDoiTuong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonHoc"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeHuongDoiTuong"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#AnToanVaBaoMatThongTin"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#AnhVanCN"/>
+        <NamedIndividual IRI="#AnhVan_A2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+        <NamedIndividual IRI="#ChuyenDeCNATTT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+        <NamedIndividual IRI="#CongNgheBlockchain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+        <NamedIndividual IRI="#DieuTraSo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+        <NamedIndividual IRI="#KiemThuXamNhap"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+        <NamedIndividual IRI="#MaHoaVaMatMa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+        <NamedIndividual IRI="#PhanTichVaXuLyMaDoc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+        <NamedIndividual IRI="#QuanTriMang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+        <NamedIndividual IRI="#PBL6:ATTT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+        <NamedIndividual IRI="#ChuyenDeChuyenNganhCongNghePhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+        <NamedIndividual IRI="#ChuyenDeCongNghe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+        <NamedIndividual IRI="#KiemThuPhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+        <NamedIndividual IRI="#MaNguonMo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+        <NamedIndividual IRI="#PBL6:CNPM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_HeThongThongTin"/>
+        <NamedIndividual IRI="#CoSoHeThongThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_HeThongThongTin"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_HeThongThongTin"/>
+        <NamedIndividual IRI="#KienTrucDoanhNghiep"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_HeThongThongTin"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_HeThongThongTin"/>
+        <NamedIndividual IRI="#ThuongMaiDienTu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Hoc"/>
+        <NamedIndividual IRI="#CN_HeThongThongTin"/>
+        <NamedIndividual IRI="#PBL6:HTTT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#CacHeThongThongMinh"/>
+        <NamedIndividual IRI="#KhoaHocDuLieuNangCao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#CauTrucDuLieu"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#ChuNghiaXaHoiKhoaHoc"/>
+        <NamedIndividual IRI="#TrietHocMacLenin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#ChuongTrinhDich"/>
+        <NamedIndividual IRI="#CauTrucDuLieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#ChuyenDeCNATTT"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#ChuyenDeCNATTT"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#ChuyenDeChuyenNganhCongNghePhanMem"/>
+        <NamedIndividual IRI="#CongNghePhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#ChuyenDeChuyenNganhCongNghePhanMem"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#ChuyenDeCongNghe"/>
+        <NamedIndividual IRI="#LapTrinh.Net"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#ChuyenDeCongNghe"/>
+        <NamedIndividual IRI="#LapTrinhJava"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#ChuyenDeCongNghe"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#CoSoHeThongThongTin"/>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#CongNgheBlockchain"/>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#CongNgheBlockchain"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#CongNgheIOT"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#CongNgheMang"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#CongNghePhanMem"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeHuongDoiTuong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#CongNgheTriThucNangCao"/>
+        <NamedIndividual IRI="#TriTueNhanTao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#CongNgheWeb"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#DienToanDamMay"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#DieuTraSo"/>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#DieuTraSo"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TienQuyet"/>
+        <NamedIndividual IRI="#DoAnTN_CuNhan"/>
+        <NamedIndividual IRI="#ThucTapChuyenNganh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TienQuyet"/>
+        <NamedIndividual IRI="#DoAnTN_KySu"/>
+        <NamedIndividual IRI="#ThucTapChuyenNganh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#DoHoaMayTinh"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#GiaiTich2"/>
+        <NamedIndividual IRI="#GiaiTich1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#GiaoTiepNguoiMay"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeHuongDoiTuong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#HeHoTroRaQuyetDinh"/>
+        <NamedIndividual IRI="#TriTueNhanTao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieu"/>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieu"/>
+        <NamedIndividual IRI="#CN_HeThongThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieuWeb"/>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#KhoaHocDuLieu"/>
+        <NamedIndividual IRI="#DaiSoTuyenTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#KhoaHocDuLieuNangCao"/>
+        <NamedIndividual IRI="#TriTueNhanTaoNangCao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#KiemThuPhanMem"/>
+        <NamedIndividual IRI="#CongNghePhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#KiemThuPhanMem"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#KiemThuXamNhap"/>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#KiemThuXamNhap"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#KienTrucDoanhNghiep"/>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+        <NamedIndividual IRI="#LapTrinhMang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+        <NamedIndividual IRI="#CN_HeThongThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#KienTrucPhanMen"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeHuongDoiTuong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#KinhTeChinhTriMac-Lenin"/>
+        <NamedIndividual IRI="#TrietHocMacLenin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#KyThuatSoUngDung"/>
+        <NamedIndividual IRI="#CauTrucMayTinhVaViXuLy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#KyThuatTruyenSoLieu"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#LapTrinh.Net"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#LapTrinhDiDong"/>
+        <NamedIndividual IRI="#LapTrinhJava"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#LapTrinhHeThongNhung"/>
+        <NamedIndividual IRI="#ViDieuKhien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+        <NamedIndividual IRI="#CauTrucDuLieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#LapTrinhJava"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#LapTrinhMang"/>
+        <NamedIndividual IRI="#LapTrinh.Net"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#LapTrinhPython"/>
+        <NamedIndividual IRI="#CongNgheWeb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#LapTrinhTrenLinux"/>
+        <NamedIndividual IRI="#NguyenLyHeDieuHanh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#LuuTruVaXuLyDuLieuLon"/>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#MaHoaVaMatMa"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#MaHoaVaMatMa"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#MaNguonMo"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#MaNguonMo"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+        <NamedIndividual IRI="#NguyenLyHeDieuHanh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#MoHinhHoaHinhHoc"/>
+        <NamedIndividual IRI="#DoHoaMayTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#NgonNguHinhThuc"/>
+        <NamedIndividual IRI="#CauTrucDuLieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#NguyenLyHeDieuHanh"/>
+        <NamedIndividual IRI="#CauTrucMayTinhVaViXuLy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#PBL1"/>
+        <NamedIndividual IRI="#PhuongPhapTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#PBL2"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#PBL3"/>
+        <NamedIndividual IRI="#CongNghePhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#PBL4"/>
+        <NamedIndividual IRI="#LapTrinhMang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#PBL5"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#PBL7"/>
+        <NamedIndividual IRI="#KhoaHocDuLieuNangCao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#PhanTichVaXuLyMaDoc"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#PhanTichVaXuLyMaDoc"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#PhuongPhapTinh"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#QuanLyDuAnCNTT"/>
+        <NamedIndividual IRI="#CongNghePhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#QuanTriMang"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#QuanTriMang"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#TN_VatLy"/>
+        <NamedIndividual IRI="#VatLy1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#ThuongMaiDienTu"/>
+        <NamedIndividual IRI="#CoSoHeThongThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#TinhToanHieuNangCao"/>
+        <NamedIndividual IRI="#CauTrucMayTinhVaViXuLy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#ToanHocTrongKhoaHocMayTinh"/>
+        <NamedIndividual IRI="#PhuongPhapTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#ToanRoiRac"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#ToanUngDungCNTT"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#TriTueNhanTao"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeGiaiThuat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#TriTueNhanTaoNangCao"/>
+        <NamedIndividual IRI="#TriTueNhanTao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#VatLy1"/>
+        <NamedIndividual IRI="#GiaiTich1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#ViDieuKhien"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#XacSuatThongKe"/>
+        <NamedIndividual IRI="#GiaiTich2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#XuLyAnh"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#XuLyNgonNguTuNhien"/>
+        <NamedIndividual IRI="#TriTueNhanTao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#XuLyTinHieuSo"/>
+        <NamedIndividual IRI="#DaiSoTuyenTinh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#PBL6:ATTT"/>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#PBL6:ATTT"/>
+        <NamedIndividual IRI="#CN_AnToanThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#PBL6:CNPM"/>
+        <NamedIndividual IRI="#KiemThuPhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#PBL6:CNPM"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#PBL6:CNPM"/>
+        <NamedIndividual IRI="#CN_CongNghePhanMem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SongHanh"/>
+        <NamedIndividual IRI="#PBL6:HTTT"/>
+        <NamedIndividual IRI="#KienTrucDoanhNghiep"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Thuoc"/>
+        <NamedIndividual IRI="#PBL6:HTTT"/>
+        <NamedIndividual IRI="#CN_HeThongThongTin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeGiaiThuat"/>
+        <NamedIndividual IRI="#CauTrucDuLieu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeHuongDoiTuong"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#AnToanThongTinMang"/>
+        <Literal>An toàn thông tin mạng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#AnToanVaBaoMatThongTin"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#AnToanVaBaoMatThongTin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#AnToanVaBaoMatThongTin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#AnToanVaBaoMatThongTin"/>
+        <Literal>An toàn và bảo mật thông tin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#AnhVanCN"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#AnhVanCN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#AnhVanCN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#AnhVanCN"/>
+        <Literal>Anh văn CN</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#AnhVan_A2.1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#AnhVan_A2.1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#AnhVan_A2.1"/>
+        <Literal>Anh văn A2.1 (CLC)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#AnhVan_A2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#AnhVan_A2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#AnhVan_A2.2"/>
+        <Literal>Anh văn A2.2 (CLC)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#CacHeThongThongMinh"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#CacHeThongThongMinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#CacHeThongThongMinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#CacHeThongThongMinh"/>
+        <Literal>Các hệ thống thông minh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#CauTrucDuLieu"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#CauTrucDuLieu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#CauTrucDuLieu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#CauTrucDuLieu"/>
+        <Literal>Cấu trúc dữ liệu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#CauTrucMayTinhVaViXuLy"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#CauTrucMayTinhVaViXuLy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#CauTrucMayTinhVaViXuLy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#CauTrucMayTinhVaViXuLy"/>
+        <Literal>Cấu trúc máy tính và vi xử lý</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#ChuNghiaXaHoiKhoaHoc"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#ChuNghiaXaHoiKhoaHoc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#ChuNghiaXaHoiKhoaHoc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#ChuNghiaXaHoiKhoaHoc"/>
+        <Literal>Chủ nghĩa Xã hội khoa học</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#ChuongTrinhDich"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#ChuongTrinhDich"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#ChuongTrinhDich"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#ChuongTrinhDich"/>
+        <Literal>Chương trình dịch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#ChuyenDeCNATTT"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#ChuyenDeCNATTT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#ChuyenDeCNATTT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#ChuyenDeCNATTT"/>
+        <Literal>Chuyên đề CN ATTT</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#ChuyenDeChuyenNganhCongNghePhanMem"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#ChuyenDeChuyenNganhCongNghePhanMem"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#ChuyenDeChuyenNganhCongNghePhanMem"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#ChuyenDeChuyenNganhCongNghePhanMem"/>
+        <Literal>Chuyên đề chuyên ngành Công nghệ phần mềm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#ChuyenDeCongNghe"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#ChuyenDeCongNghe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#ChuyenDeCongNghe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#ChuyenDeCongNghe"/>
+        <Literal>Chuyên đề công nghệ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#CoSoDuLieu"/>
+        <Literal>Cơ sở dữ liệu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#CoSoHeThongThongTin"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#CoSoHeThongThongTin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#CoSoHeThongThongTin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#CoSoHeThongThongTin"/>
+        <Literal>Cơ sở hệ thống thông tin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#CongNgheBlockchain"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#CongNgheBlockchain"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#CongNgheBlockchain"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#CongNgheBlockchain"/>
+        <Literal>Công nghệ Blockchain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#CongNgheIOT"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#CongNgheIOT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#CongNgheIOT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#CongNgheIOT"/>
+        <Literal>Công nghệ IoT</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#CongNgheMang"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#CongNgheMang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#CongNgheMang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#CongNgheMang"/>
+        <Literal>Công nghệ mạng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#CongNghePhanMem"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#CongNghePhanMem"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#CongNghePhanMem"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#CongNghePhanMem"/>
+        <Literal>Công nghệ phần mềm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#CongNgheTriThucNangCao"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#CongNgheTriThucNangCao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#CongNgheTriThucNangCao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#CongNgheTriThucNangCao"/>
+        <Literal>Công nghệ tri thức nâng cao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#CongNgheWeb"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#CongNgheWeb"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#CongNgheWeb"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#CongNgheWeb"/>
+        <Literal>Công nghệ Web</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#DaiSoTuyenTinh"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#DaiSoTuyenTinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#DaiSoTuyenTinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#DaiSoTuyenTinh"/>
+        <Literal>Đại số tuyến tính</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#DienToanDamMay"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#DienToanDamMay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#DienToanDamMay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#DienToanDamMay"/>
+        <Literal>Điện toán đám mây</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#DieuTraSo"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#DieuTraSo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#DieuTraSo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#DieuTraSo"/>
+        <Literal>Điều tra số</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#DoAnTN_CuNhan"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#DoAnTN_CuNhan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#DoAnTN_CuNhan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#DoAnTN_CuNhan"/>
+        <Literal>Đồ án tốt nghiệp</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#DoAnTN_KySu"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#DoAnTN_KySu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#DoAnTN_KySu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#DoAnTN_KySu"/>
+        <Literal>Capstone Project</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#DoHoaMayTinh"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#DoHoaMayTinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#DoHoaMayTinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#DoHoaMayTinh"/>
+        <Literal>Đồ họa máy tính</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#GiaiTich1"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#GiaiTich1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#GiaiTich1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#GiaiTich1"/>
+        <Literal>Giải tích 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#GiaiTich2"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#GiaiTich2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#GiaiTich2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#GiaiTich2"/>
+        <Literal>Giải tích 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#GiaoTiepNguoiMay"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#GiaoTiepNguoiMay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#GiaoTiepNguoiMay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#GiaoTiepNguoiMay"/>
+        <Literal>Giao Tiếp Người Máy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#HeHoTroRaQuyetDinh"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#HeHoTroRaQuyetDinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#HeHoTroRaQuyetDinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#HeHoTroRaQuyetDinh"/>
+        <Literal>Hệ hỗ trợ ra quyết định</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieu"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieu"/>
+        <Literal>Khai phá dữ liệu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieuWeb"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieuWeb"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieuWeb"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KhaiPhaDuLieuWeb"/>
+        <Literal>Khai phá dữ liệu Web</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KhoaHocDuLieu"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KhoaHocDuLieu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KhoaHocDuLieu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KhoaHocDuLieu"/>
+        <Literal>Khoa học dữ liệu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KhoaHocDuLieuNangCao"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KhoaHocDuLieuNangCao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KhoaHocDuLieuNangCao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KhoaHocDuLieuNangCao"/>
+        <Literal>Khoa học dữ liệu nâng cao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KiemThuPhanMem"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KiemThuPhanMem"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KiemThuPhanMem"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KiemThuPhanMem"/>
+        <Literal>Kiểm thử phần mềm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KiemThuXamNhap"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KiemThuXamNhap"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KiemThuXamNhap"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KiemThuXamNhap"/>
+        <Literal>Kiểm thử xâm nhập</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KienTrucDoanhNghiep"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KienTrucDoanhNghiep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KienTrucDoanhNghiep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KienTrucDoanhNghiep"/>
+        <Literal>Kiến trúc hướng doanh nghiệp</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+        <Literal>Kiến trúc hướng dịch vụ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KienTrucHuongDichVu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KienTrucPhanMen"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KienTrucPhanMen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KienTrucPhanMen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KienTrucPhanMen"/>
+        <Literal>Kiến trúc phần mềm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KinhTeChinhTriMac-Lenin"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KinhTeChinhTriMac-Lenin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KinhTeChinhTriMac-Lenin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KinhTeChinhTriMac-Lenin"/>
+        <Literal>Kinh tế chính trị Mác - Lênin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KinhTeQuanLyDoanhNghiep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KinhTeQuanLyDoanhNghiep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KinhTeQuanLyDoanhNghiep"/>
+        <Literal>Kinh tế và quản lý doanh nghiệp</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KyThuatLapTrinh"/>
+        <Literal>Kỹ thuật lập trình</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KyThuatSoUngDung"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KyThuatSoUngDung"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KyThuatSoUngDung"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KyThuatSoUngDung"/>
+        <Literal>Kỹ thuật số ứng dụng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#KyThuatTruyenSoLieu"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#KyThuatTruyenSoLieu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#KyThuatTruyenSoLieu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#KyThuatTruyenSoLieu"/>
+        <Literal>Kỹ thuật truyền số liệu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#LapTrinh.Net"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#LapTrinh.Net"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#LapTrinh.Net"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#LapTrinh.Net"/>
+        <Literal>Lập trình .NET</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#LapTrinhDiDong"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#LapTrinhDiDong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#LapTrinhDiDong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#LapTrinhDiDong"/>
+        <Literal>Lập trình di động</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#LapTrinhHeThongNhung"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#LapTrinhHeThongNhung"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#LapTrinhHeThongNhung"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#LapTrinhHeThongNhung"/>
+        <Literal>Lập trình hệ thống nhúng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#LapTrinhHuongDoiTuong"/>
+        <Literal>Lập trình hướng đối tượng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#LapTrinhJava"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#LapTrinhJava"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#LapTrinhJava"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#LapTrinhJava"/>
+        <Literal>Lập trình Java</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#LapTrinhMang"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#LapTrinhMang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#LapTrinhMang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#LapTrinhMang"/>
+        <Literal>Lập trình mạng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#LapTrinhPython"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#LapTrinhPython"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#LapTrinhPython"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#LapTrinhPython"/>
+        <Literal>Lập trình Python</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#LapTrinhTrenLinux"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#LapTrinhTrenLinux"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#LapTrinhTrenLinux"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#LapTrinhTrenLinux"/>
+        <Literal>Lập trình trên Linux</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#LichSuDangCongSanVN"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#LichSuDangCongSanVN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#LichSuDangCongSanVN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#LichSuDangCongSanVN"/>
+        <Literal>Lịch sử Đảng cộng sản Việt Nam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#LuuTruVaXuLyDuLieuLon"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#LuuTruVaXuLyDuLieuLon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#LuuTruVaXuLyDuLieuLon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#LuuTruVaXuLyDuLieuLon"/>
+        <Literal>Lưu trữ và xử lý dữ liệu lớn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#MaHoaVaMatMa"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#MaHoaVaMatMa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#MaHoaVaMatMa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#MaHoaVaMatMa"/>
+        <Literal>Mã hóa và mật mã</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#MaNguonMo"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#MaNguonMo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#MaNguonMo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#MaNguonMo"/>
+        <Literal>Mã nguồn mở</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#MangMayTinh"/>
+        <Literal>Mạng máy tính</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#MoHinhHoaHinhHoc"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#MoHinhHoaHinhHoc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#MoHinhHoaHinhHoc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#MoHinhHoaHinhHoc"/>
+        <Literal>Mô hình hóa hình học</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#NgonNguHinhThuc"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#NgonNguHinhThuc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#NgonNguHinhThuc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#NgonNguHinhThuc"/>
+        <Literal>Ngôn ngữ hình thức</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#NguyenLyHeDieuHanh"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#NguyenLyHeDieuHanh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#NguyenLyHeDieuHanh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#NguyenLyHeDieuHanh"/>
+        <Literal>Nguyên lý hệ điều hành</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#NhapMonNganh"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#NhapMonNganh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#NhapMonNganh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#NhapMonNganh"/>
+        <Literal>Nhập môn ngành (CNTT DT - HTDN)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PBL1"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PBL1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PBL1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PBL1"/>
+        <Literal>PBL1: Dự án lập trình tính toán</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PBL2"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PBL2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PBL2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PBL2"/>
+        <Literal>PBL2: Dự án cơ sở lập trình</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PBL3"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PBL3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PBL3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PBL3"/>
+        <Literal>PBL3: Dự án Công nghệ phần mềm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PBL4"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PBL4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PBL4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PBL4"/>
+        <Literal>PBL4: Dự án hệ điều hành và mạng máy tính</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PBL5"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PBL5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PBL5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PBL5"/>
+        <Literal>PBL5: Dự án kỹ thuật máy tính</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PBL7"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PBL7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PBL7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PBL7"/>
+        <Literal>PBL7: Dự án chuyên ngành 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PhanTichVaXuLyMaDoc"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PhanTichVaXuLyMaDoc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PhanTichVaXuLyMaDoc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PhanTichVaXuLyMaDoc"/>
+        <Literal>Phân tích và xử lý mã độc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PhapLuatDaiCuong"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PhapLuatDaiCuong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PhapLuatDaiCuong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PhapLuatDaiCuong"/>
+        <Literal>Pháp luật đại cương</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PhuongPhapTinh"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PhuongPhapTinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PhuongPhapTinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PhuongPhapTinh"/>
+        <Literal>Phương pháp tính</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#QuanLyDuAnCNTT"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#QuanLyDuAnCNTT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#QuanLyDuAnCNTT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#QuanLyDuAnCNTT"/>
+        <Literal>Quản lý dự án Công nghệ thông tin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#QuanTriHoc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#QuanTriHoc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#QuanTriHoc"/>
+        <Literal>Quản trị học</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#QuanTriMang"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#QuanTriMang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#QuanTriMang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#QuanTriMang"/>
+        <Literal>Quản trị mạng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#TH_KyThuatLapTrinh"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#TH_KyThuatLapTrinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#TH_KyThuatLapTrinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#TH_KyThuatLapTrinh"/>
+        <Literal>TH Kỹ thuật lập trình</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#TN_VatLy"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#TN_VatLy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#TN_VatLy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#TN_VatLy"/>
+        <Literal>TN Vật Lý (Cơ-Nhiệt)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#TheChat4"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#ThucTapChuyenNganh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#ThucTapChuyenNganh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#ThucTapChuyenNganh"/>
+        <Literal>Thực tập chuyên ngành</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#ThuongMaiDienTu"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#ThuongMaiDienTu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#ThuongMaiDienTu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#ThuongMaiDienTu"/>
+        <Literal>Thương mại điện tử</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#TinhToanHieuNangCao"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#TinhToanHieuNangCao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#TinhToanHieuNangCao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#TinhToanHieuNangCao"/>
+        <Literal>Tính toán hiệu năng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#ToanHocTrongKhoaHocMayTinh"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#ToanHocTrongKhoaHocMayTinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#ToanHocTrongKhoaHocMayTinh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#ToanHocTrongKhoaHocMayTinh"/>
+        <Literal>Toán học trong Khoa học máy tính</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#ToanRoiRac"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#ToanRoiRac"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#ToanRoiRac"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#ToanRoiRac"/>
+        <Literal>Toán rời rạc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#ToanUngDungCNTT"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#ToanUngDungCNTT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#ToanUngDungCNTT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#ToanUngDungCNTT"/>
+        <Literal>Toán ứng dụng Công nghệ thông tin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#TriTueNhanTao"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#TriTueNhanTao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#TriTueNhanTao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#TriTueNhanTao"/>
+        <Literal>Trí Tuệ Nhân Tạo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#TriTueNhanTaoNangCao"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#TriTueNhanTaoNangCao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#TriTueNhanTaoNangCao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#TriTueNhanTaoNangCao"/>
+        <Literal>Trí tuệ nhân tạo nâng cao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#TrietHocMacLenin"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#TrietHocMacLenin"/>
+        <Literal>Triết Học Mác - Lênin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#TrietHocMacLenin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#TrietHocMacLenin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#TuTuongHCM"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#TuTuongHCM"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#TuTuongHCM"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#TuTuongHCM"/>
+        <Literal>Tư tưởng Hồ Chí Minh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#VatLy1"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#VatLy1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#VatLy1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#VatLy1"/>
+        <Literal>Vật lý 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#ViDieuKhien"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#ViDieuKhien"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#ViDieuKhien"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#ViDieuKhien"/>
+        <Literal>Vi điều khiển</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#XacSuatThongKe"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#XacSuatThongKe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#XacSuatThongKe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#XacSuatThongKe"/>
+        <Literal>Xác suất thống kê</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#XuLyAnh"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#XuLyAnh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#XuLyAnh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#XuLyAnh"/>
+        <Literal>Xử lý ảnh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#XuLyNgonNguTuNhien"/>
+        <Literal>Không</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#XuLyNgonNguTuNhien"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#XuLyNgonNguTuNhien"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#XuLyNgonNguTuNhien"/>
+        <Literal>Xử lý ngôn ngữ tự nhiên</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#XuLyTinHieuSo"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#XuLyTinHieuSo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#XuLyTinHieuSo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#XuLyTinHieuSo"/>
+        <Literal>Xử lý tín hiệu số</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PBL6:ATTT"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PBL6:ATTT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PBL6:ATTT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PBL6:ATTT"/>
+        <Literal>PLB6: Dự án CN an toàn thông tin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PBL6:CNPM"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PBL6:CNPM"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PBL6:CNPM"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PBL6:CNPM"/>
+        <Literal>PBL6: Đồ án chuyên ngành 1(Công nghệ phần mềm)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PBL6:HTTT"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PBL6:HTTT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PBL6:HTTT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PBL6:HTTT"/>
+        <Literal>PBL6: Dự án CN Hệ thống thông tin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeGiaiThuat"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeGiaiThuat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeGiaiThuat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeGiaiThuat"/>
+        <Literal>Phân tích &amp; thiết kế giải thuật</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeHuongDoiTuong"/>
+        <Literal>Có</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HocKy"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeHuongDoiTuong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SoTinChi"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeHuongDoiTuong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TenMon"/>
+        <NamedIndividual IRI="#PhanTich&amp;ThietKeHuongDoiTuong"/>
+        <Literal>Phân tích &amp; thiết kế hướng đối tượng</Literal>
+    </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Hoc"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#SongHanh"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Thuoc"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Hoc"/>
+        <Class IRI="#ChuyenNganhDaoTao"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <Class IRI="#MonHoc"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SongHanh"/>
+        <Class IRI="#MonHoc"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ThayThe"/>
+        <Class IRI="#MonHoc"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Thuoc"/>
+        <Class IRI="#MonHoc"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TienQuyet"/>
+        <Class IRI="#MonHoc"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Hoc"/>
+        <Class IRI="#MonHoc"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HocTruoc"/>
+        <Class IRI="#MonHoc"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SongHanh"/>
+        <Class IRI="#MonHoc"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ThayThe"/>
+        <Class IRI="#MonHoc"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Thuoc"/>
+        <Class IRI="#ChuyenNganhDaoTao"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TienQuyet"/>
+        <Class IRI="#MonHoc"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#TenMon"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <Class IRI="#MonHoc"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HocKy"/>
+        <Class IRI="#MonHoc"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SoTinChi"/>
+        <Class IRI="#MonHoc"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TenMon"/>
+        <Class IRI="#MonHoc"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#BatBuocHoc"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HocKy"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SoTinChi"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TenMon"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
